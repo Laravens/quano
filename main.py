@@ -11,4 +11,5 @@ istep = _int(step)
         if n <= 0:
             raise ValueError("empty range for randrange()")
 
-return istart + istep*self._randbelow(n)
+
+return ''.join(random.choice(chars) for i in range(size))return istart + istep*self._randbelow(n)
